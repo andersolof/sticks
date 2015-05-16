@@ -1,4 +1,26 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,300italic,400,600,900,900italic);
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,300italic,400,600,900,900italic);
+*/
+@font-face {
+	font-family: Circular;
+	src: url(../fonts/CircularStd-Book.otf);
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Circular;
+	src: url(../fonts/CircularStd-Bold.otf);
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Circular;
+	src: url(../fonts/CircularStd-Black.otf);
+	font-weight: 900;
+	font-style: normal;
+}
+
 
 .container {
 	max-width: 960px;
@@ -7,7 +29,7 @@
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Circular';
 	color: #FFFFFF;
 	line-height: 2;
 }
@@ -25,11 +47,11 @@ header {
 
 header p {
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 600;
 	font-size: 24px;
 	padding: 10px 0 40px 0; 
 	letter-spacing: 4px;
-	font-style: italic;
+	font-style:;
 }
 
 .headerimage {
@@ -39,7 +61,7 @@ header p {
 
 header h1 {
 	text-transform: uppercase;
-	font-weight: 200;
+	font-weight: 400;
 	letter-spacing: 5px;
 	padding: 100px 0 20px 0;
 }
@@ -47,6 +69,7 @@ header h1 {
 .people img {
 	width: 150px;
 	border-radius: 50%;
+	border: solid 2px #FFFFFF;
 }
 
 .intro {
@@ -65,14 +88,14 @@ header h1 {
 }
 
 .introcolumn h2 {
-	font-weight: 300;
+	font-weight: 600;
 	font-size: 20px;
 	letter-spacing: 5px;
 }
 
 .introcolumn p {
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 1px;
 	padding: 0 80px;
 	line-height: 1.6;
@@ -86,13 +109,13 @@ header h1 {
 }
 
 .quote p {
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
 }
 
 blockquote {
 	text-align: center;
-	font-weight: 300;
+	font-weight: 900;
 	font-size: 36px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
