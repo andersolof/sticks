@@ -75,6 +75,7 @@ header h1 {
 .intro {
 	background: #ff3c00;
 
+
 }
 
 .introcolumn img {
@@ -113,6 +114,11 @@ header h1 {
 	text-align: center;
 }
 
+.second.group {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 blockquote {
 	text-align: center;
 	font-weight: 900;
@@ -144,6 +150,10 @@ blockquote {
 
 	.quote {
 		padding: 40px;
+	}
+
+	.second.group {
+		padding: 20px 0 60px 0;
 	}
 }
 
