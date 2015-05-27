@@ -122,7 +122,7 @@
 .column.offset-by-twelve, .columns.offset-by-twelve {
   margin-left: 100%; }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 720px) {
   .column.one, .columns.one {
     width: 100%;
     margin-left: 0; }
